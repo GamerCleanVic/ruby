@@ -3,7 +3,7 @@ class TextoTeclado
     nome = ""
     saudacao = "Hello "
 
-    puts "Digite seu nome: "
+    print "Digite seu nome: "
     nome = gets.chomp
 
     puts "#{saudacao} #{nome}!"
